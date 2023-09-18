@@ -18,10 +18,10 @@
     background: rgb(13, 13, 13);
     padding: 20px;
     border-radius: 10px;
-    
+
 
 }
-.calculator form input{
+.calculator button{
     margin: 10px;
     border: 0;
     color: white;
@@ -39,13 +39,21 @@ form .display{
     justify-content: flex-end;
     margin: 20px 0;
 }
-form .display input{
+input{
     text-align:right ;
     flex: 1;
-    
+    width: 320px;
     box-shadow: none;
     font-size: 45px;
 }
-form input.equal{
+input::placeholder{
+    color: black;
+}
+button.equal{
     width: 145px;
+}
+h1{
+    color: rgb(50, 92, 141);
+    text-align: center;
+    
 }
